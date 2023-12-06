@@ -3,6 +3,7 @@ import Section from 'components/uiComponents/Section'
 import UsersList from 'components/UserList'
 import dataJson from './users.json'
 
+
 class App extends Component {
   state = {
     users: dataJson,
